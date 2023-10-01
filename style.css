@@ -1,0 +1,85 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    background-color: #191917;
+}
+#page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    height: 200vh;
+    width: 100vw;
+}
+nav{
+    position: absolute;
+    top: 0%;
+    padding: 0vw 5vw;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    gap: 65vh;
+    width: 100vw;
+}
+nav>h1{
+    font-size: 1vw;
+    color: #fff;
+}
+.beech-ki-image{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 65vh;
+    width: 30vw;
+    background-color: red;
+}
+.beech-ki-image>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page>h1{
+    color: #fff;
+    text-align: center;
+    font-size: 15vw;
+    line-height: .8;
+}
+#page .front{
+    position: relative;
+    z-index: 999;
+    font-family: serif;
+    letter-spacing: 15px;
+}
+#page1{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#page1>h5{
+    color: pink;
+    margin-top: 5vw;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
