@@ -83,3 +83,39 @@ nav>h1{
     width: 100vw;
     position: relative;
 }
+.rom-rom{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90vh;
+    width: 30vw;
+    /* position: relative; */
+}
+.rom-rom>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.real{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    width: 10vw;
+    position: absolute;
+    border: 1px solid pink;
+    border-radius: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+.real>h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+.real>h3>i{
+    font-family: serif;
+}
