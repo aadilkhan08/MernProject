@@ -31,7 +31,6 @@ haka.from("#page1>h1",{
 
 
 var main = document.querySelector(".rom-rom");
-
 var circle = document.querySelector(".real")
 
 
@@ -46,3 +45,5 @@ main.addEventListener("mouseleave",function(){
     circle.style.left = `0%`
     circle.style.top = `20%`
 })
+
+

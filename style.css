@@ -119,3 +119,68 @@ nav>h1{
 .real>h3>i{
     font-family: serif;
 }
+#page3{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+}
+.right{
+    height: 100vh;
+    width: 50vw;
+    background-color: red;
+}
+.right>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.left{
+    height: 200vh;
+    width: 50vw;
+    background-color: #fff;
+}
+.left-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+.left-top>h1{
+    line-height: 1.5;
+    font-size: 40vh;
+}
+.left-top>h1:nth-child(1){
+    margin-top: -25vh;
+}
+.left-bottom{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+}
+.rishi>h1{
+    padding: 0vw 4vw;
+    font-size: 1.5vw;
+}
+.rishi>h1>i{
+    font-family: serif;
+}
+.kishan>h1{
+    padding: 0vw 4vw;
+    font-size: 1.5vw;
+}
+
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
